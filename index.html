@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promovemos Seguros Ltda | Cúcuta</title>
+    <meta name="description" content="La agencia de seguros de confianza en Cúcuta. Cotiza en minutos tu SOAT, Seguro de Auto, Seguros Empresariales y Responsabilidad Civil.">
+    <meta name="keywords" content="seguros cucuta, soat cucuta, seguros para carro cucuta, agencia de seguros">
+    
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="assets/icons/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <i class='bx bx-shield-quarter loader-icon'></i>
+            <div class="loader-bar"><div class="loader-fill"></div></div>
+        </div>
+    </div>
+
+    <!-- Cursor Follower -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class='bx bx-shield-quarter'></i>
+                <div class="logo-text">
+                    <span class="logo-name">Promovemos Seguros</span>
+                    <span class="logo-tag">Tu tranquilidad en Cúcuta</span>
+                </div>
+            </a>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#diferencial" class="nav-link">Nosotros</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+            </ul>
+
+            <a href="https://wa.me/573000000000" class="btn btn-glow d-none-mobile" target="_blank">
+                <i class='bx bxl-whatsapp'></i> Cotizar Ahora
+            </a>
+            
+            <div class="menu-icon" id="menu-icon">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="inicio">
+        <!-- Animated particles canvas -->
+        <canvas id="particles-canvas"></canvas>
+
+        <!-- Slideshow BG -->
+        <div class="slideshow">
+            <div class="slide slide-1"></div>
+            <div class="slide slide-2"></div>
+            <div class="slide slide-3"></div>
+            <div class="slide-overlay"></div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge badge-anim">
+                    <span class="badge-dot"></span> Agencia Líder en Norte de Santander
+                </span>
+                <h1 class="hero-title">
+                    Protege lo que más <span class="text-highlight" id="typed-text"></span>
+                </h1>
+                <p class="hero-subtitle">Comparamos entre las 10 mejores aseguradoras del país para ofrecerte el precio más bajo y la atención más rápida en Cúcuta.</p>
+                
+                <div class="hero-cta-group">
+                    <a href="https://wa.me/573000000000" class="btn btn-accent btn-lg" target="_blank">
+                        <i class='bx bxl-whatsapp'></i> Cotizar en WhatsApp
+                    </a>
+                    <a href="#servicios" class="btn btn-ghost btn-lg">Ver Servicios <i class='bx bx-chevron-down'></i></a>
+                </div>
+                
+                <div class="hero-features">
+                    <span class="feat-pill"><i class='bx bx-check-circle'></i> Asesoría Personalizada</span>
+                    <span class="feat-pill"><i class='bx bx-check-circle'></i> Acompañamiento en Siniestros</span>
+                    <span class="feat-pill"><i class='bx bx-check-circle'></i> Cero Letra Pequeña</span>
+                </div>
+            </div>
+
+            <!-- Animated Promo Card -->
+            <div class="hero-promo-card">
+                <div class="promo-ring"></div>
+                <div class="promo-icon-bg"><i class='bx bx-shield-quarter'></i></div>
+                <h3>Cotizamos en <span class="text-accent">2 minutos</span></h3>
+                <p>Solo danos la placa de tu vehículo vía WhatsApp y comparamos precios por ti.</p>
+                <div class="promo-steps">
+                    <div class="promo-step"><span>1</span> Envía tu placa</div>
+                    <div class="promo-step"><span>2</span> Comparamos 10+ aseguradoras</div>
+                    <div class="promo-step"><span>3</span> Recibes la mejor opción</div>
+                </div>
+                <a href="https://wa.me/573000000000?text=Hola,%20quiero%20cotizar%20un%20seguro" target="_blank" class="btn btn-accent btn-block">
+                    <i class='bx bxl-whatsapp'></i> Empezar Ahora — Es Gratis
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- Brands Ticker -->
+    <section class="trusted-brands">
+        <div class="brands-ticker-wrapper">
+            <div class="brands-ticker">
+                <span>Allianz</span><span>•</span>
+                <span>Sura</span><span>•</span>
+                <span>Mapfre</span><span>•</span>
+                <span>Seguros Bolívar</span><span>•</span>
+                <span>Liberty Seguros</span><span>•</span>
+                <span>Allianz</span><span>•</span>
+                <span>Sura</span><span>•</span>
+                <span>Mapfre</span><span>•</span>
+                <span>Seguros Bolívar</span><span>•</span>
+                <span>Liberty Seguros</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="servicios">
+        <div class="container text-center">
+            <span class="section-subtitle">NUESTROS SERVICIOS</span>
+            <h2 class="section-title">El seguro ideal para cada necesidad</h2>
+            
+            <div class="services-grid">
+                <div class="service-card reveal" data-tilt>
+                    <div class="service-img" style="background-image: url('assets/images/servicio-auto.jpg');"></div>
+                    <div class="service-card-body">
+                        <div class="service-icon"><i class='bx bx-car'></i></div>
+                        <h3>Seguro Todo Riesgo</h3>
+                        <p>Protege tu patrimonio de robos, choques y daños a terceros. Conseguimos el deducible ideal para tu bolsillo.</p>
+                        <a href="https://wa.me/573000000000?text=Hola,%20quiero%20cotizar%20un%20seguro%20todo%20riesgo" class="service-link" target="_blank">
+                            Cotizar Ahora <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-card reveal delay-1" data-tilt>
+                    <div class="service-img" style="background-image: url('assets/images/servicio-soat.jpg');"></div>
+                    <div class="service-card-body">
+                        <div class="service-icon"><i class='bx bx-file-blank'></i></div>
+                        <h3>SOAT Rápido y Seguro</h3>
+                        <p>Evita estafas de páginas falsas. Emite tu SOAT legal en 5 minutos a través de nuestro canal corporativo.</p>
+                        <a href="https://wa.me/573000000000?text=Hola,%20quiero%20comprar%20mi%20SOAT" class="service-link" target="_blank">
+                            Comprar SOAT <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-card reveal delay-2" data-tilt>
+                    <div class="service-img" style="background-image: url('assets/images/servicio-empresa.jpg');"></div>
+                    <div class="service-card-body">
+                        <div class="service-icon"><i class='bx bx-buildings'></i></div>
+                        <h3>Seguros Empresariales</h3>
+                        <p>Protección contra incendios, robos y riesgos laborales para tu Pyme o comercio en Norte de Santander.</p>
+                        <a href="https://wa.me/573000000000?text=Hola,%20quiero%20cotizar%20un%20seguro%20empresarial" class="service-link" target="_blank">
+                            Saber más <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-card reveal delay-3" data-tilt>
+                    <div class="service-img" style="background-image: url('assets/images/servicio-civil.jpg');"></div>
+                    <div class="service-card-body">
+                        <div class="service-icon"><i class='bx bx-check-shield'></i></div>
+                        <h3>Responsabilidad Civil</h3>
+                        <p>Pólizas médicas, de construcción y directivos. Protege tu empresa de demandas por daños o mala praxis.</p>
+                        <a href="https://wa.me/573000000000?text=Hola,%20quiero%20info%20sobre%20responsabilidad%20civil" class="service-link" target="_blank">
+                            Saber más <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Differentiation Section -->
+    <section class="differentiation section" id="diferencial">
+        <div class="container diff-container">
+            <div class="diff-image reveal">
+                <div class="image-box">
+                    <div class="pattern-overlay"></div>
+                    <h2>No tratas con Chatbots.<br>Tratas con Expertos.</h2>
+                    <div class="image-box-badge"><i class='bx bxs-badge-check'></i> Agencia certificada</div>
+                </div>
+            </div>
+            
+            <div class="diff-content reveal delay-1">
+                <span class="section-subtitle">POR QUÉ PROMOVEMOS SEGUROS</span>
+                <h2 class="section-title">Tu aliado real, no otro call center</h2>
+                <p>Las aseguradoras directas son lentas cuando tienes una emergencia. Nosotros somos tu escudo intermediario para agilizar todo el proceso.</p>
+                
+                <ul class="diff-list">
+                    <li class="diff-list-item reveal delay-1">
+                        <div class="diff-icon-wrap"><i class='bx bxs-stopwatch'></i></div>
+                        <div class="diff-text">
+                            <h4>Velocidad Incomparable</h4>
+                            <p>Cotizaciones listas en WhatsApp sin formularios interminables. Solo la placa y tu nombre.</p>
+                        </div>
+                    </li>
+                    <li class="diff-list-item reveal delay-2">
+                        <div class="diff-icon-wrap"><i class='bx bx-user-voice'></i></div>
+                        <div class="diff-text">
+                            <h4>Asesor Personal en Cúcuta</h4>
+                            <p>Si te chocas, tienes una línea directa a tu asesor en la ciudad, no a un call center de Bogotá.</p>
+                        </div>
+                    </li>
+                    <li class="diff-list-item reveal delay-3">
+                        <div class="diff-icon-wrap"><i class='bx bxs-file-find'></i></div>
+                        <div class="diff-text">
+                            <h4>Sin Letra Pequeña</h4>
+                            <p>Te explicamos exactamente qué cubre tu póliza con palabras claras, antes de que firmes.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Blog Section -->
+    <section class="blog section" id="blog">
+        <div class="container">
+            <div class="blog-header">
+                <div>
+                    <span class="section-subtitle">EDUCACIÓN</span>
+                    <h2 class="section-title">Aprende sobre tus Seguros</h2>
+                </div>
+                <a href="#" class="btn btn-outline">Ver Todo el Blog</a>
+            </div>
+
+            <div class="blog-grid">
+                <article class="blog-card reveal">
+                    <div class="blog-img" style="background: url('assets/images/blog-soat.jpg') center/cover;"></div>
+                    <div class="blog-content">
+                        <span class="blog-category">SOAT</span>
+                        <h4><a href="#">Cómo evitar estafas al comprar el SOAT por internet en Cúcuta</a></h4>
+                        <p>Aprende a identificar páginas falsas y protege tu dinero con estos sencillos pasos.</p>
+                        <div class="blog-footer">
+                            <span class="blog-date"><i class='bx bx-calendar'></i> Oct 12, 2026</span>
+                            <a href="#" class="blog-read">Leer <i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card reveal delay-1">
+                    <div class="blog-img" style="background: url('assets/images/blog-vehiculos.jpg') center/cover;"></div>
+                    <div class="blog-content">
+                        <span class="blog-category">Vehículos</span>
+                        <h4><a href="#">Diferencias vitales entre Pérdida Total y Daño Emergente</a></h4>
+                        <p>No asumas que todo lo cubre el seguro. Conoce los términos clave para saber exigir.</p>
+                        <div class="blog-footer">
+                            <span class="blog-date"><i class='bx bx-calendar'></i> Oct 05, 2026</span>
+                            <a href="#" class="blog-read">Leer <i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card reveal delay-2">
+                    <div class="blog-img" style="background: url('assets/images/servicio-empresa.jpg') center/cover;"></div>
+                    <div class="blog-content">
+                        <span class="blog-category">Empresas</span>
+                        <h4><a href="#">Por qué tu PyME necesita un Seguro de Responsabilidad Civil</a></h4>
+                        <p>Un accidente en tus instalaciones puede quebrar tu empresa. Evítalo con este seguro.</p>
+                        <div class="blog-footer">
+                            <span class="blog-date"><i class='bx bx-calendar'></i> Sep 28, 2026</span>
+                            <a href="#" class="blog-read">Leer <i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo footer-logo">
+                    <i class='bx bx-shield-quarter'></i>
+                    <div class="logo-text">
+                        <span class="logo-name" style="color:#fff;">Promovemos Seguros</span>
+                    </div>
+                </a>
+                <p>Tu agencia aliada en Norte de Santander. Agilizamos, comparamos y te asesoramos frente a cualquier siniestro.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" aria-label="TikTok"><i class='bx bxl-tiktok'></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Servicios</h4>
+                <ul>
+                    <li><a href="#servicios">Seguro Todo Riesgo</a></li>
+                    <li><a href="#servicios">SOAT Rápido</a></li>
+                    <li><a href="#servicios">Seguros Empresariales</a></li>
+                    <li><a href="#servicios">Responsabilidad Civil</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <ul class="contact-info">
+                    <li><i class='bx bxl-whatsapp'></i> +57 300 000 0000</li>
+                    <li><i class='bx bx-phone'></i> (607) 500 0000</li>
+                    <li><i class='bx bx-envelope'></i> hola@promovemosseguros.com.co</li>
+                    <li><i class='bx bx-map'></i> Cúcuta, Norte de Santander</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Promovemos Seguros Ltda. Todos los derechos reservados. · Hecho con ❤️ en Cúcuta.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/573000000000?text=Hola%20Promovemos%20Seguros,%20quiero%20una%20cotizaci%C3%B3n" class="floating-wa" target="_blank" aria-label="Chatear por WhatsApp">
+        <i class='bx bxl-whatsapp'></i>
+        <span class="wa-pulse"></span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
